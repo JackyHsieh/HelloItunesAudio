@@ -15,6 +15,7 @@ class MainTabBarController:UITabBarController {
         UINavigationBar.appearance().prefersLargeTitles = true
         tabBar.tintColor = .orange
         setupViewController()
+        
     }
     
     //MARK:- Setup Function
